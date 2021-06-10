@@ -29,9 +29,77 @@ header{
 #content{
 	float:left;
 	width: calc(100% - 100px);
-	min-height: 450px;
-	background: blue;
+	min-height: 10px;
+	background: lightblue;
 	padding: 50px;
 	font-size: 25px;
-	color: white;
+	color: black;
+}
+
+#tabla{
+	background: lightblue;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+table{
+    margin-top: 30px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-image: linear-gradient(to left, rgb(64, 148, 106),white);
+    box-shadow: 5px 5px 5px gray;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+caption{
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form{
+	padding: 50px;
+}
+
+input{
+    background: none;
+    color: #645656;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+label{
+    font-size: 20px;
+    font-style: italic;
+}
+
+button{
+    font-family: 'roboto';
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    border: none;
+    width: 20%;
+    color: #fff;
+    height: 40ps;
+    font-size: 25px;
+    cursor: pointer;
+	margin-left: 50px;
 }
