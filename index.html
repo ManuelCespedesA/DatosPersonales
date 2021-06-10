@@ -12,11 +12,115 @@
 			</header>
 			<section id="content">
 				<center>
-					<img src="img/imagen.jpg" style="widht: 350;" height="300" alt="">
-				<p> <br> Hola, mi nombre es Manuel Stefano Cespedes Alcca <br> Soy un estudiante de Ing. de Sistemas de la Universidad Nacional del Callao</p>
-			</center>
+					<img src="img/imagen.jpg" style="width: 350;" height="300" alt="">
+					<p> <br> Hola, mi nombre es Manuel Stefano Cespedes Alcca <br> Soy un estudiante de Ing. de Sistemas de la Universidad Nacional del Callao</p>
+				</center>
+				
 			</section>
-
+			
+			<div id="tabla">
+							
+				<h1>TABLA DE CURSOS</h1>
+	
+				<table>
+					<caption>Cursos de programacion y externos</caption>
+					<tr>
+						<th>Cursos de Carrera llevados</th>
+						<th>Cursos de Carrera faltantes</th>
+						<th>Cuross Externos</th>
+					</tr>
+					<tr>
+						<td>Teoria de Codificacion y de la Informacion</td>
+						<td>Redes y Comunicaciones</td>
+						<td>Word (Basico)</td>
+					</tr>
+					<tr>
+						<td>Programacion Estructurada</td>
+						<td>Sistema Operativos</td>
+						<td>Ingles (Basico)</td>
+					</tr>
+					<tr>
+						<td>Programacion Orientada a Objetos</td>
+						<td>Simulacion de sistemas</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Base de datos</td>
+						<td>Aplicaion de base de datos</td>
+						<td></td>
+					</tr>
+				</table>
+				<br><br>
+				<form>
+					<h2> FORMULARIO</h2>
+							
+					<br>
+		
+					<label for="nombre">Nombre:</label>
+					<input type="text" name="nombre" id="nombre">
+					<br><br>
+		
+					<label for="apellido">Apellido:</label>
+					<input type="text" name="apellido" id="apellido">
+					<br><br>
+		
+					<label for="telefono">Numero de telefono:</label>
+					<input type="text" name="telefono" id="telefono">
+					<br><br>
+					
+					<label for="correo">Correo Electronico:</label>
+					<input type="text" name="correo" id="correo">
+					<br><br>
+		
+					<label for="nacimiento">Fecha de Nacimiento: </label>
+					<input type="date" name="nacimiento" id="nacimiento">
+					<br><br>
+		
+					<input type="radio" name="genero" id="hombre">
+					<label for="hombre">Maculino</label>
+					<input type="radio" name="genero" id="mujer">
+					<label for="mujer">Femenino</label>
+					<input type="radio" name="genero" id="N.A">
+					<label for="N.A">N.A</label>
+					<br><br>
+		
+					<label for="">Tema de interes:</label><br>
+		
+					<input type="checkbox" name="interes" id="jugar">
+					<label for="jugar">Jugar Videojuegos</label><br>
+					<input type="checkbox" name="interes" id="leer">
+					<label for="leer">Leer</label><br>
+					<input type="checkbox" name="interes" id="programar">
+					<label for="programar">Programar</label><br>
+					<input type="checkbox" name="interes" id="mirar">
+					<label for="mirar">Mirar television</label><br>
+					<input type="checkbox" name="interes" id="youtube">
+					<label for="youtube">Mirar videos en youtube</label><br>
+					<input type="checkbox" name="interes" id="Deporte">
+					<label for="Deporte">Deporte</label><br>					
+					<input type="checkbox" name="interes" id="Cine">
+					<label for="Cine">Cine</label><br>
+					<input type="checkbox" name="interes" id="otros">
+					<label for="otros">Otra alternativa: </label>
+					<input type="text" name="Otros"	id="Otros">
+					<br><br>
+		
+					  <label for="SO">Escoja su sistema operativo</label> <br/>
+					   <select id="SO" name="SO">
+						   <option value="" selected="selected">- selecciona -</option>
+						   <option value="windows">Windows</option>
+						<option value="mac">Mac</option>
+						<option value="linux">Linux</option>
+						<option value="otro">Otro</option>
+					</select>
+							
+					<br><br>
+					
+					<button type="submit">Enviar datos</button> 
+					<button type="reset">Borrar datos</button>
+		
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
